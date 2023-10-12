@@ -1,0 +1,15 @@
+git init: cria um repositório do git da pasta local
+git-add - Adiciona o conteúdo do arquivo ao índice
+git-commit- Registra alterações no repositório
+gti-branch - Lista, cria ou exclui ramificações
+git-remote - Gerencia conjuntos de repositórios rastreados
+git-push - Atualiza referências remotas junto com objetos associados
+
+Alterar
+echo "# cubom-gico" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GeyzaRocha/cubom-gico.git
+git push -u origin main
